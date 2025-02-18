@@ -6,7 +6,7 @@
 - item: 爱开发
   icon: fas fa-code
   link: "https://www.idev.top/"
-  target: _blank
+  target: new
 
 - item: 社区
   icon: fas fa-terminal
@@ -23,7 +23,10 @@
   list:
     - name: Code
       url: "https://git.jetsung.com/jetsung"
+      target: _blank
     - name: GitHub
       url: "https://github.com/jetsung"
+      target: _blank
     - name: GitCode
       url: "https://gitcode.com/jetsung"
+      target: _blank
