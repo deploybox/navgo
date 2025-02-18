@@ -1,0 +1,370 @@
+---
+- taxonomy: 杰森
+  # icon: fa-lg fas fa-star
+  icon: bi bi-star-fill
+  list:
+    - term: 社交
+      links:
+        # - title:
+        #   logo:
+        #   favicon:
+        #   url:
+        #   description:
+        #   qrcode:
+        - title: 爱开发
+          logo: idev.png
+          favicon:
+          url: https://www.idev.top/
+          description: 开发者技术资讯网站
+          qrcode:
+        - title: 爱开发社区
+          logo: idev.png
+          favicon:
+          url: https://forum.idev.top/
+          description: 开发者技术交流社区
+          qrcode:
+        - title: Code
+          logo: gitlab.png
+          favicon:
+          url: "https://git.jetsung.com/jetsung"
+          description: 项目源码托管平台
+        - title: GitCode
+          logo: gitcode.png
+          favicon:
+          url: "https://gitcode.com/jetsung"
+          description: （国内）作品项目代码开源          
+        - title: GitHub
+          logo: github.png
+          favicon:
+          url: "https://github.com/jetsung"
+          description: （国外）作品项目代码开源
+        - title: 微信公众号
+          logo: weixin.png
+          favicon: https://open.weixin.qq.com/zh_CN/htmledition/res/assets/res-design-download/icon64_appwx_logo.png
+          description: 爱开发微信公众号
+          qrcode: assets/images/weixin.png
+        - title: 头条号
+          logo: toutiao.png
+          favicon: 
+          url: https://www.toutiao.com/c/user/token/MS4wLjABAAAATopQ1LkY3v_vbmTLcW504_Asubeqs24gH-IFJp66CDLoFB2ATjEwBZJhdIsgKEPZ/?
+          description: 平平无奇程序员（头条号）
+          qrcode: assets/images/toutiao.png
+    - term: 项目
+      links:
+        - title: 爱开发手记
+          logo: snap.png
+          favicon: https://demo.usememos.com/apple-touch-icon.png
+          url: https://snap.idev.top/
+          description: 代码片段、即时手记
+        - title: 终端录播
+          logo: asciinema.png
+          favicon: 
+          url: https://recode.idev.top/
+          description: Asciinema 终端录播
+    - term: 下载
+      links:
+        - title: 文件加速下载（NLVPS）
+          url: https://filetas.asfd.cn
+          description: 文件加速下载（CF 优速）
+        - title: 文件加速下载（NLVPS）
+          url: https://filetas.skiy.net
+          description: 文件加速下载（VPS 原速）
+        - title: 文件加速下载（NLVPS）
+          url: https://filetas-cf.skiy.net
+          description: 文件加速下载（CF 加速）                    
+        - title: 文件加速下载
+          url: https://cfiletas.skiy.net
+          description: 文件加速下载（CloudFlare）
+
+- taxonomy: Go 语言
+  icon: bi bi-code-square
+  list:
+    - term: 官方平台
+      links:
+        - title: 网站
+          logo: golang.png
+          favicon:
+          url: https://go.dev/
+          description: Go 语言官方网站
+        - title: 下载
+          logo: golang.png
+          favicon:
+          url: https://go.dev/dl/
+          description: Go 语言下载
+        - title: 标准库
+          logo: golang.png
+          favicon:
+          url: https://pkg.go.dev/std
+          description: Go 语言标准库
+        - title: 源码
+          logo: golang.png
+          favicon:
+          url: https://github.com/golang/go
+          description: Go 语言源码
+        - title: 博客
+          logo: golang.png
+          favicon:
+          url: https://go.dev/blog/
+          description: Go 语言博客
+
+- taxonomy: 推荐
+  icon: bi bi-code-square
+  list:
+    - term: 对象存储与网盘
+      links:
+        - title: MinIO
+          logo: minio.png
+          favicon: https://min.io/resources/img/logo.svg
+          url: https://github.com/minio/minio
+          description: 兼容 Amazon S3 协议的对象存储服务
+        - title: Alist
+          logo: alist.png
+          favicon: https://favicon.skiy.net/alist-doc.nn.ci
+          url: https://github.com/alist-org/alist
+          description: 一个支持多存储的文件列表程序   
+    - term: 命令行工具
+      links:
+        - title: rclone
+          logo: rclone.png
+          favicon: https://favicon.skiy.net/rclone.org
+          url: https://github.com/rclone/rclone
+          description: 文件和目录与云存储同步工具   
+        - title: hugo
+          logo: hugo.png
+          favicon: https://favicon.skiy.net/gohugo.io
+          url: https://github.com/gohugoio/hugo
+          description: 静态站点生成器
+        - title: Caddy
+          logo: caddy.png
+          favicon: https://favicon.skiy.net/caddyserver.com
+          url: https://github.com/caddyserver/caddy
+          description: 快速且可扩展的多平台 HTTP/1-2-3 Web 服务器
+
+- taxonomy: 软件
+  icon: bi bi-code-square
+  list:
+    - term: 数据库相关
+      links:
+        - title: Tiny RDM
+          logo: tiny-rdm.png
+          favicon: https://favicon.skiy.net/redis.tinycraft.cc
+          url: https://github.com/tiny-craft/tiny-rdm
+          description: 一个现代化轻量级的跨平台Redis桌面客户端
+    - term: 对象存储相关
+      links:
+        - title: Cloudreve
+          logo: cloudreve.png
+          favicon: https://favicon.skiy.net/cloudreve.org
+          url: https://github.com/cloudreve/Cloudreve
+          description: 自托管支持多家云存储的云盘系统         
+
+- taxonomy: 项目
+  icon: bi bi-code-square
+  list:
+    - term: 自托管服务
+      links:
+        - title: Gotify
+          logo: gotify.png
+          favicon: https://favicon.skiy.net/gotify.net
+          url: https://github.com/gotify/server
+          description: 用于发送和接收消息的简单服务器
+        - title: Gitpod
+          logo: gitpod.png
+          favicon: https://favicon.skiy.net/www.gitpod.io
+          url: https://github.com/gitpod-io/gitpod
+          description: 自托管云端开发环境
+        - title: Artalk
+          logo: artalk.png
+          favicon: https://favicon.skiy.net/artalk.js.org
+          url: https://github.com/ArtalkJS/Artalk
+          description: 自托管评论系统
+        - title: Remark42
+          logo: remark42.png
+          favicon: https://favicon.skiy.net/remark42.com
+          url: https://github.com/umputun/remark42
+          description: 自托管、轻量级且简单的评论系统
+        - title: listmonk
+          logo: listmonk.png
+          favicon: https://favicon.skiy.net/listmonk.app
+          url: https://github.com/knadh/listmonk
+          description: 自托管的、新闻通讯和邮件列表管理器
+        - title: Navidrome Music Server
+          logo: navidrome.png
+          favicon: https://favicon.skiy.net/www.navidrome.org
+          url: https://github.com/navidrome/navidrome
+          description: 基于 Web 的开源音乐收集服务器和流媒体
+        - title: Apache Answer
+          logo: apache_answer.png
+          favicon: https://favicon.ooos.top/?url=answer.apache.org
+          url: https://github.com/apache/answer
+          description: 一款适合任何团队的问答平台软件
+    - term: 服务器侧
+      links:
+        - title: 1Panel
+          logo: 1panel.png
+          favicon: https://t3.gstatic.cn/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://1panel.cn&size=48
+          url: https://github.com/1Panel-dev/1Panel
+          description: Linux 服务器运维管理面板
+        - title: 耗子面板
+          logo: github.png
+          url: https://github.com/tnb-labs/panel
+          description: 新一代全能服务器运维管理面板
+
+- taxonomy: 框架
+  icon: bi bi-code-square
+  list:
+    - term: WEB
+      links:
+        - title: GIN
+          logo: gin.png
+          favicon: https://t3.gstatic.cn/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://gin-gonic.com&size=48
+          url: https://github.com/gin-gonic/gin
+          description: HTTP Web 框架
+        - title: Hertz
+          logo: github.png
+          url: https://github.com/cloudwego/hertz
+          description: 微服务 HTTP 框架
+    - term: 微服务
+      links:
+        - title: Golang Micro
+          logo: github.png
+          url: https://github.com/micro/micro
+          description: 微服务框架
+        - title: go-zero
+          logo: go-zero.png
+          favicon: https://favicon.skiy.net/go-zero.dev
+          url: https://github.com/zeromicro/go-zero
+          description: 集成了各种工程实践的 web 和 rpc 框架
+        - title: go-chassis
+          logo: github.png
+          url: https://github.com/go-chassis/go-chassis
+          description: 微服务开发框架          
+    - term: 游戏服务器
+      links:
+        - title: nakama
+          logo: github.png
+          favicon:
+          url: https://github.com/heroiclabs/nakama
+          description: 社交和实时游戏及应用程序的分布式服务器
+        - title: due
+          logo: github.png
+          url: https://github.com/dobyte/due
+          description: 分布式游戏服务器框架
+
+- taxonomy: 类库
+  icon: bi bi-code-square
+  list:
+    - term: ORM
+      links:
+        - title: gorm
+          logo: gorm.png
+          favicon: https://favicon.skiy.net/gorm.io
+          url: https://github.com/go-gorm/gorm
+          description: 功能齐全的数据库操作库
+        - title: xorm
+          logo: xorm.png
+          favicon: https://favicon.skiy.net/xorm.io
+          url: https://gitea.com/xorm/xorm
+          description: 简单而强大的Go语言ORM库
+        - title: ent
+          logo: ent.png
+          favicon: https://favicon.skiy.net/entgo.io
+          url: https://github.com/ent/ent
+          description: 一个强大的Go语言实体框架
+        - title: zorm
+          logo: zorm.png
+          favicon: https://favicon.skiy.net/zorm.cn
+          url: https://gitee.com/chunanyong/zorm
+          description: 轻量 ORM，支持国产数据库
+    - term: 命令行库
+      links:
+        - title: Cobra
+          logo: github.png
+          url: https://github.com/spf13/cobra
+          description: 
+        - title: Urfave CLI
+          logo: github.png
+          url: https://github.com/urfave/cli
+          description: 
+    - term: 日志库
+      links:
+        - title: Zap
+          logo: github.png
+          url: https://github.com/uber-go/zap
+          description: Uber 开发的日志库
+        - title: Logrus
+          logo: github.png
+          url: https://github.com/sirupsen/logrus
+          description: （项目已进入持续维护状态）
+    - term: 文档处理
+      links: 
+        - title: etree
+          logo: etree.png
+          favicon: github.png
+          url: https://github.com/beevik/etree
+          description: 解析和生成 XML
+    - term: 其它
+      links:
+        - title: Excelize
+          logo: excelize.png
+          favicon: https://t3.gstatic.cn/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://xuri.me/excelize&size=48
+          url: https://github.com/qax-os/excelize
+          description: 读取和写入 Microsoft Excel™ （XLAM / XLSM / XLSX / XLTM / XLTX） 电子表格
+        - title: go-echarts
+          logo: go-echarts.png
+          favicon: https://user-images.githubusercontent.com/19553554/52535979-c0d0e680-2d8f-11e9-85c8-2e9f659e7c6f.png
+          url: https://github.com/go-echarts/go-echarts
+          description: 数据可视化库
+        - title: Resty
+          logo: resty.png
+          favicon: https://favicon.skiy.net/resty.dev
+          url: https://github.com/go-resty/resty
+          description: 用于 Go 的简单 HTTP、REST 和 SSE 客户端库
+        - title: go-smtp
+          logo: github.png
+          url: https://github.com/emersion/go-smtp
+          description: ESMTP 客户端和服务器库
+  
+- taxonomy: 命令行
+  icon: bi bi-code-square
+  list:
+    - term: 开发与构建
+      links:
+        - title: GoReleaser
+          logo: goreleaser.png
+          favicon: https://favicon.skiy.net/goreleaser.com
+          url: https://github.com/goreleaser/goreleaser
+          description: Go 语言的自动化发布工具
+        - title: nunu
+          logo: github.png
+          url: https://github.com/go-nunu/nunu
+          description: 用于创建 Go 语言项目脚手架的命令行工具          
+    - term: 网络相关
+      links:
+        - title: frp
+          logo: frp.png
+          favicon: https://favicon.skiy.net/gofrp.org
+          url: https://github.com/fatedier/frp
+          description: 内网穿透工具
+        - title: gost
+          logo: gost.png
+          favicon: https://favicon.skiy.net/gost.run
+          url: https://github.com/go-gost/gost
+          description: 内网穿透工具
+        - title: croc
+          logo: github.png
+          url: https://github.com/schollz/croc
+          description: 设备间的文件传输工具
+        - title: transfer.sh
+          logo: github.png
+          url: https://github.com/dutchcoders/transfer.sh
+          description: 通过命令行轻松快速地共享文件
+        - title: Lego
+          logo: github.png
+          url: https://github.com/go-acme/lego
+          description: Let's Encrypt/ACME 命令行和库
+        - title: Restic
+          logo: restic.png
+          favicon: https://favicon.skiy.net/restic.net
+          url: https://github.com/restic/restic
+          description: 一个快速、高效且安全的备份程序

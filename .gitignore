@@ -1,0 +1,8 @@
+.vscode/
+.wrangler/
+.sync.*
+
+/public
+/docs
+
+exampleSite/public/

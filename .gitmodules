@@ -1,0 +1,3 @@
+[submodule "themes/navhive"]
+	path = themes/navhive
+	url = https://github.com/idevsig/navhive.git
