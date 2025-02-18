@@ -1,21 +1,50 @@
 variables:
   GIT_SUBMODULE_STRATEGY: recursive
   CLOUDFLARE_API_TOKEN: $CLOUDFLARE_API_TOKEN
+  PROJECT_NAME: navgo
 
-image: ghcr.io/getzola/zola:v0.20.0
+stages           :
+- build
+- deploy
 
-stages:
-  - deploy
+cache            :
+  paths:
+  - public/
 
-before_script: |
-  apk update
-  apk add --no-cache bash npm
-  npm install -g wrangler@latest
+# Build Hugo site
+build            :
+  stage: build
+  image: rust:slim-bookworm  
+  before_script: |
+    apt update -y
+    apt install -y curl
+    ZOLA_VERSION=$(curl -sL -o /dev/null -w %{url_effective} https://github.com/getzola/zola/releases/latest | xargs basename)
+    curl -sL -O "https://github.com/getzola/zola/releases/download/${ZOLA_VERSION}/zola-${ZOLA_VERSION}-x86_64-unknown-linux-gnu.tar.gz"
+    tar -xzf *.tar.gz
+  script:
+  - ./zola --version
+  - ./zola build
+  artifacts:
+    paths:
+    - public/
 
 deploy:
   stage: deploy
+  image: alpine:latest
+  before_script: |
+    apk update
+    apk add --no-cache npm
+    npm install -g wrangler@latest  
   script: |
-    bash ./.deploy.sh -d
+    wrangler --version
+
+    # 判断项目名未创建项目
+    if ! wrangler pages project list | grep -q " ${PROJECT_NAME} "; then
+      wrangler pages project create "${PROJECT_NAME}" --production-branch production
+    fi
+
+    wrangler pages deploy ./public --project-name "${PROJECT_NAME}" --branch production
 
   only:
     - main
+    - dev

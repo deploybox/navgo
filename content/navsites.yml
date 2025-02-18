@@ -113,7 +113,7 @@
     - term: 对象存储与网盘
       links:
         - title: MinIO
-          logo: minio.png
+          logo: minio.svg
           favicon: https://min.io/resources/img/logo.svg
           url: https://github.com/minio/minio
           description: 兼容 Amazon S3 协议的对象存储服务
